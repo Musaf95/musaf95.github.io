@@ -121,3 +121,34 @@ p {
     line-height: normal;
 }
 
+.contact_form{
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.input[type=text], textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #DADFE0;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #cb3318;
+}
