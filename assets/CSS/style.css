@@ -115,7 +115,7 @@ p {
     float: left;
     width: 100%;
     padding: 0 4%;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-weight: 300;
     line-height: normal;
@@ -151,4 +151,25 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #cb3318;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    max-width: 100%;
+    flex: 33.33%;
+    padding: 5px;
+    width: 33.33%;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.column iframe {
+    width: 100%;
+    height: auto;
 }
